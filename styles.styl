@@ -1,0 +1,132 @@
+/** stylus -w "..\..\..\..\domains\login\styles.styl" -o "..\..\..\..\domains\login\styles.css" */
+*
+  body
+    margin: 0
+    padding: 0
+    position: absolute
+    width: 100%
+    overflow-x: hidden
+#content
+  width: 100%
+  position: relative
+.wrapper.inner.content
+  margin-left: -20px
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  display: block
+#signup
+  margin-left: -20px
+  /*.wrapper.form.localization*/
+    /*margin-top: -62px;*/
+    /*margin-left: 210px*/
+    /*margin-bottom: -50px*/
+    /*width: 226px*/
+    /*select*/
+      /*margin: 2px*/
+      /*padding: 6px*/
+      /*width: 179px*/
+      /*border-radius: 0*/
+      /*border: 1px solid grey*/
+    /*input[type=submit]*/
+      /*padding: 7px*/
+      /*width: 97px*/
+      /*border: 0*/
+      /*border-radius: 0*/
+      /*background-color: #028edd*/
+      /*color: white*/
+  .wrapper.form.signup
+    padding: 34px
+    background-color: #E0E3FF
+    width: 370px
+  .wrapper.inner.signin
+    padding: 34px
+    background-color: #E0E3FF
+    margin-top: 50%
+    width: 370px
+#signin
+  .wrapper.form.localization
+    margin-right: 0
+  .wrapper.inner.signin
+    padding: 34px
+    background-color: #E0E3FF
+    margin-top: 50%
+    width: 370px
+#user
+  .wrapper.inner
+    padding: 34px
+    background-color: #E0E3FF
+    width: 370px
+    dd
+      margin-left: 15px
+
+.validation_error_content
+  color: red
+  margin-left: 3px
+  display: none
+
+h2
+  margin: 0
+  padding: 0
+h4
+  margin-bottom: 2px
+  padding-bottom: 7px
+  width: 340px
+ul.nonStyle
+  padding: 0
+  margin: 0
+  li
+    padding-top: 2px
+    list-style: none
+    input
+      margin: 2px
+      padding: 7px
+      border: 1px solid grey
+      &.birthday
+        width: 70px
+      &[type=text], &[type=password]
+        width: 350px
+      &[type=file]
+        width: 350px;
+    select
+      margin: 2px
+      padding: 6px
+      width: 179px
+      border-radius: 0
+      border: 1px solid grey
+      &.birthday
+        width: 100px !important
+input[type=submit]
+  border: 0
+  border-radius: 0
+  background-color: #05617C
+  color: white
+  padding: 12px
+  width: 99%
+  margin-top: 35px
+  font-size: 17px
+#photoUploadButton
+  background-color: #028edd
+  color: white
+  padding: 9px
+  margin-top: 10px !important
+  margin-left: 3px
+  width: 200px
+
+.wrapper.form.localization
+  float: right;
+  margin-top: -5px
+  margin-right: 20px
+  margin-bottom 20px
+  select
+    font-size: 15px;
+    height: 30px
+    /*border-radius: 5px*/
+    border: 1px solid grey
+  input[type=submit]
+    font-size: 15px
+    padding: 0
+    height: 30px
+    width: 100px
